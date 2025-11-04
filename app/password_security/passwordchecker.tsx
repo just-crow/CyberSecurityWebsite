@@ -35,7 +35,7 @@ export default function PasswordChecker() {
     const [brcolor, setbrcolor] = useState("none")
     return (
         <>
-        <div className="flex justify-center flex-row text-white border mx-auto rounded-sm w-120 h-10 pl-1 mb-4">
+        <div className="flex justify-center flex-row text-white border mx-auto rounded-sm w-120 max-w-[100vw] h-10 pl-1 mb-4">
         <input className="border-0 w-105 focus:outline-none" type={vals[currnum]} value={ival} onChange={(e) => {setIval(e.target.value)}}></input>
         <button className="ml-3 hover:cursor-pointer" onClick={() => {setCurrnum(currnum === 0 ? 1 : 0)}}><i className="fa-solid fa-eye text-xl"></i></button>
         </div>

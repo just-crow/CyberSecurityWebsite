@@ -20,8 +20,8 @@ One of the largest password exposures was the Yahoo data breach in 2013. Hackers
             <div className="pass-img-container"><img className="password-image" src="https://i.ibb.co/Vc5jrMNX/image.png" alt="https://bluelance.com/blog-posts/active-directory-security-mistakes"></img></div>
             <ul className="space-y-1">
                 <h1 className="text-green-400 w-full text-center">Secure</h1>
-                <li className="nopre text-white w-full text-center">H7v$9qZ!xLp3</li>
-                <li className="nopre text-white w-full text-center">rT4@bV6k#Fq8</li>
+                <li className="text-white w-full text-center">H7v$9qZ!xLp3</li>
+                <li className="text-white w-full text-center">rT4@bV6k#Fq8</li>
                 <li className="text-white w-full text-center">M!n8uX2%pJs9</li>
                 <li className="text-white w-full text-center">wQ3&yE7*Vz5R</li>
                 <li className="text-white w-full text-center">cD9#kF2!mRt6</li>
@@ -33,8 +33,8 @@ One of the largest password exposures was the Yahoo data breach in 2013. Hackers
             </ul>
             <ul className="space-y-1">
                 <h1 className="text-red-600 w-full text-center">Not Secure</h1>
-                <li className="nopre text-white w-full text-center">123456</li>
-                <li className="nopre text-white w-full text-center">password</li>
+                <li className="text-white w-full text-center">123456</li>
+                <li className="text-white w-full text-center">password</li>
                 <li className="text-white w-full text-center">qwerty</li>
                 <li className="text-white w-full text-center">111111</li>
                 <li className="text-white w-full text-center">letmein</li>
