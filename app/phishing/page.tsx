@@ -40,7 +40,7 @@ export default function PhishingPage() {
 
             <h1 className="info-text">Over 90% of cyberattacks start with a phishing email, but they are not impossible to recognize. Your email account usually filters the unwanted messages, but if they are sending them through a trusted infrastructure it can pass checks and end up in your inbox. Here are a few ways you can spot a phishing email:</h1>
             <hr className="text-gray-600 width-[80%] my-5"/>
-            <ul className="ml-20 text-white mb-15">
+            <ul className="ml-20 text-white mb-15 text-[21px]">
                 <li className="pre">The sender’s email does not match the name of the official company. For example, The official address of the company Netflix is <code>“info@members.netflix.com”</code>, but you received an email from <code>“info@members.netfIix.com”</code>. This subtle difference can be difficult to detect. If you take a closer look, the letter <code>“l”</code> in the word <code>“netflix”</code> is replaced with a capital <code>“I (i)”</code>. Falling for a mistake as such can result in hackers obtaining your credit card information or your passwords and important data.</li>
                 <li className="pre">There are many grammatical errors.</li>
                 <li className="pre">Rather than your real name, a generic greeting is used (Customer, dear, account holder, etc.)</li>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Navbar></Navbar>
-    <h1 className="w-fit mx-auto text-3xl color-green my-18 cygreen spread">Cyber Security</h1>
+    <h1 className="w-fit mx-auto text-4xl color-green my-18 mt-25 cygreen spread">Cyber Security</h1>
     <h1 className="info-text">One of the bigger problems amongst the usual users of the internet is malicious software. The developer of the software tends to utilize our computer for their own benefit. The most popular strands of cyber threats are phishing, malware infections and social engineering attacks. The consequences for falling for one of these tricks can be severe. They go from losing access to the files of your computer, all the way to giving the hackers access to your online bank accounts. I will perform research on high schoolers. This essay will cover phishing attacks, malware and weak passwords.</h1>
     <hr></hr>
     <h1 className="info-text">Phishing is a fraudulent attempt by hackers who try to obtain sensitive personal data via email or SMS, usually by impersonating trusted organizations, people we know or just offering an advantageous offer. The cybercriminals usually use the victims' trust to take over accounts, deploy ransomware attacks, etc.</h1>
