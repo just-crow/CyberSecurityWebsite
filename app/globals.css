@@ -114,6 +114,17 @@ code {
   font-family: "Courier New";
 }
 
+.title-resp {
+  font-size: max(2vw, 20px);
+  margin-top: 4vw;
+}
+
+@media only screen and (max-width: 1290px) {
+  .title-resp {
+    margin-top: max(6vw, 80px);
+  }
+}
+
 @media only screen and (max-width: 1040px) {
   .godeeper {
     display: block;

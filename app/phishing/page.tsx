@@ -5,8 +5,11 @@ export default function PhishingPage() {
     return (
         <>
             <Navbar></Navbar>
+            
             <div className="flex flex-row gap-150 items-center min-h-screen h-fit">
                 <div>
+                    <h1 className="w-fit mx-auto title-resp color-green cygreen spread">Password Security</h1>
+
                     <h1 className="info-text max-w-[35vw] break-text">Phishing is a fraudulent attempt by hackers who try to obtain sensitive personal data via email or SMS, usually by impersonating trusted organizations, people we know or just offering an advantageous offer. The cybercriminals usually use the victims' trust to take over accounts, deploy ransomware attacks, etc. Here are the tactics used to make the scams look eligible:</h1>
                     
                     <hr className="text-gray-600 mx-5"/>
@@ -19,7 +22,7 @@ export default function PhishingPage() {
                     </ul>
                 </div>
 
-                <div className="grid grid-cols-1 content-between h-[250vw] absolute right-[3vw] top-[3.6vw] sm:h-fit sm:gap-4 sm:grid-cols-2">
+                <div className="grid grid-cols-1 content-between h-[190%] absolute right-[3vw] top-[20vw] sm:top-[8.5vw] sm:h-fit sm:gap-4 sm:grid-cols-2">
                     <div className="phimage-container">
                         <img className="phimage" src="/images/phishing/img1.png" alt="img1" />
                     </div>

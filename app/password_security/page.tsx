@@ -48,7 +48,7 @@ One of the largest password exposures was the Yahoo data breach in 2013. Hackers
         </div>
         <hr/>
         <h1 className="info-text">There are certain rules that build an uncrackable password. It should contain at least 12 characters, with a combination of lowercase letters, uppercase letters, numbers and symbols. It is recommended to use a memorable phrase that would be easy for you to remember, but hard for others to guess, for example “BlueTiger!Sun23”.</h1>
-        <h1 className="info-text">It is crucial to check the security of your password. That can be done through the site called <a className="text-blue-400" href="https://haveibeenpwned.com/.">“HaveIBeenPwned“</a>, or accesing the integrated tool below</h1>
+        <h1 className="info-text">It is crucial to check the security of your password. That can be done through the site called <a className="text-blue-400" href="https://haveibeenpwned.com/." target="_blank">“HaveIBeenPwned“</a>, or accesing the integrated tool below</h1>
         <h1 className="w-fit mx-auto text-2xl text-white mb-3">Password Integrity Checker</h1>
         <PasswordChecker/> 
         </>
