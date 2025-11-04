@@ -11,10 +11,6 @@ const checkPassword = async(password: string) => {
     const first5 = hashed.slice(0, 5);
     const following = hashed.slice(5);
 
-    console.log(hashed)
-    console.log(first5)
-    console.log(following)
-
     const resp = await fetch(`https://api.pwnedpasswords.com/range/${first5}`);
     const data = await resp.text()
 

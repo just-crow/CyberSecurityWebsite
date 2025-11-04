@@ -6,7 +6,7 @@ import './globals.css'
 
 export default function Navbar() {
     return (
-        <NBContainer cs="text-white w-full h-20 flex justify-around items-center bg-linear-to-b from-[#19c90b]/30 fixed top-0 hover:from-[#19c90b]/50 transition-colors duration-300 z-50 pb-5 text-xl">
+        <NBContainer cs="text-white w-full h-20 flex justify-around items-center bg-linear-to-b from-[#19c90b]/30 fixed top-0 hover:from-[#19c90b]/50 transition-colors duration-300 z-50 pb-5 text-[10px] sm:text-[1.3vw]">
             <Link href="." className="hover:text-[#19c90b] transition-colors duration-300"><i className="fa-solid fa-house"></i>Home</Link>
             <Link href="./phishing" className="hover:text-[#19c90b] transition-colors duration-300"><i className="fa-solid fa-fishing-rod"></i>Phishing</Link>
             <Link href="./malware" className="hover:text-[#19c90b] transition-colors duration-300">Malware</Link>
