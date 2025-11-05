@@ -8,13 +8,13 @@ export default function () {
         <>
         <Navbar/>
         <h1 className="w-fit mx-auto text-3xl color-green my-18 cygreen spread">Password Security</h1>
-        <h1 className="info-text">Out of all threats that were discussed in this essay, weak passwords cause significant damage. Many people still use predictable and commonly used passwords such as “1234567”, “querty”, etc. Nowadays, computers can break through these passwords in just a few minutes.</h1>
+        <h1 className="info-text">Out of all threats that were discussed in this essay, weak passwords cause significant damage. Many people still use predictable and commonly used passwords such as <code>“1234567”</code>, <code>“querty”</code>, etc. Nowadays, computers can break through these passwords in just a few minutes.</h1>
         <hr/>
         <h1 className="info-text">Damages caused by weak passwords can be huge. Hackers can infiltrate your accounts, enabling them to steal your identity, take over your websites, damage your reputation, or access sensitive data. Cybercriminals can, with just one weak password, masquerade as the user to withdraw assets or breach all computers in the same network, leaking confidential information.</h1>
         <hr/>
-        <h1 className="info-text">Statistics show that weak passwords cause 30% of global data breaches and 81% of company breaches. Over 75% of people do not follow the recommended rules. Many users set passwords to their birthday, pet’s name, child’s name, etc.
+        <h1 className="info-text">Statistics show that weak passwords cause <code>30%</code> of global data breaches and <code>81%</code> of company breaches. Over <code>75%</code> of people do not follow the recommended rules. Many users set passwords to their birthday, pet’s name, child’s name, etc.
 
-One of the largest password exposures was the Yahoo data breach in 2013. Hackers exploited a vulnerability in Yahoo’s software, exposing personal account data. The company reported 3 billion accounts affected. Hackers stole names, emails, phone numbers, birth dates, and encrypted passwords. The outdated MD5 encryption allowed hackers to crack the passwords using brute-force attacks.</h1>
+One of the largest password exposures was the Yahoo data breach in 2013. Hackers exploited a vulnerability in Yahoo’s software, exposing personal account data. The company reported 3 billion accounts affected. Hackers stole names, emails, phone numbers, birth dates, and encrypted passwords. The outdated <code>MD5</code> encryption allowed hackers to crack the passwords using brute-force attacks.</h1>
 
         <div className="flex justify-around">
             <div className="pass-img-container"><img className="password-image" src="https://i.ibb.co/Vc5jrMNX/image.png" alt="https://bluelance.com/blog-posts/active-directory-security-mistakes"></img></div>
