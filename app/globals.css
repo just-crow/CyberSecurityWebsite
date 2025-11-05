@@ -119,6 +119,10 @@ code {
   margin-top: 4vw;
 }
 
+.text-resp {
+  font-size: max(1.3vw, 20px)
+}
+
 .choice {
   font-size: max(1.2vw, 15px);
   margin: 8px 0;
