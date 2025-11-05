@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Navbar from '../navbar'
 import PasswordChecker from './passwordchecker'
 
-export default function () {
+export default function PasswordPage() {
     return (
         <>
         <Navbar/>
