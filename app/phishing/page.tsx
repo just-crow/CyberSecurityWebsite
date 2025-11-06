@@ -8,7 +8,7 @@ export default function PhishingPage() {
             
             <div className="flex flex-row gap-150 items-center min-h-screen h-fit">
                 <div>
-                    <h1 className="w-fit mx-auto title-resp color-green cygreen spread">Password Security</h1>
+                    <h1 className="w-fit mx-auto title-resp color-green cygreen spread">Phishing</h1>
 
                     <h1 className="info-text max-w-[35vw] break-text">Phishing is a fraudulent attempt by hackers who try to obtain sensitive personal data via email or SMS, usually by impersonating trusted organizations, people we know or just offering an advantageous offer. The cybercriminals usually use the victims' trust to take over accounts, deploy ransomware attacks, etc. Here are the tactics used to make the scams look eligible:</h1>
                     
