@@ -128,6 +128,20 @@ code {
   margin: 8px 0;
 }
 
+#large {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#small {
+  display: none;
+}
+
+.NB {
+  font-size: max(1.3vw, 17px)
+}
+
 @media only screen and (max-width: 1290px) {
   .title-resp {
     margin-top: max(6vw, 80px);
@@ -140,5 +154,15 @@ code {
     position: static;
     margin: auto;
     margin-bottom: 10px;
+  }
+
+  #large {
+    display: none;
+  }
+  
+  #small {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 }
