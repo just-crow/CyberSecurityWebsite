@@ -16,6 +16,6 @@ export default function NBContainer({id, cs, children} : NP) {
     }, [])
 
     return (
-        <div id={id} className={pos === 0 ? cs : `NB text-[#19c90b] w-full bg-linear-to-b from-red-800 fixed top-0 hover:from-red-600/80 to-red-800/20 transition-colors duration-300 z-50 pb-5 ${cs.match(/\b(h-\d+)\b/g)}`}>{children}</div>
+        <div id={id} className={pos === 0 ? cs : `NB text-[#19c90b] w-full bg-linear-to-b from-red-800 fixed top-0 hover:from-red-600/80 to-red-800/${id == "small" ? "80" : "20"} duration-300 z-50 pb-5 ${cs.match(/\b(h-\d+)\b/g)} ${cs.match(/\btransition-[^\s]+\b/g)} ${cs.match(/\bflex-[^\s]+\b/g)}`}>{children}</div>
     )
 }
